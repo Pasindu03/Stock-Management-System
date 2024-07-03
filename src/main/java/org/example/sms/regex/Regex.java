@@ -1,4 +1,4 @@
-package org.example.sms.util.regex;
+package org.example.sms.regex;
 
 import java.util.regex.Pattern;
 
