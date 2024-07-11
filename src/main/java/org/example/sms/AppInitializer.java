@@ -17,7 +17,6 @@ public class AppInitializer extends Application {
         stage.setScene(new Scene(load));
         stage.setTitle("Starting Page");
         stage.centerOnScreen();
-
         stage.show();
     }
 }
