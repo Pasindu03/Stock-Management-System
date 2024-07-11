@@ -1,6 +1,6 @@
 package org.example.sms.regex;
 
-import org.example.sms.types.RegexPattern;
+import org.example.sms.types.RegexTypes;
 
 import java.util.regex.Pattern;
 
@@ -38,10 +38,10 @@ public class Regex {
         return regex;
     }
 
-    public  Pattern getPattern(RegexPattern type){
+    public  Pattern getPattern(RegexTypes type){
         switch (type){
-            case CUSTOMER_ID_PATTERN:ID_PATTERN:
-            return Pattern.compile(String.valueOf(customerIdPattern));
+            case CUSTOMER_ID_PATTERN:
+                return Pattern.compile(String.valueOf(customerIdPattern));
             case EMPLOYEE_ID_PATTERN:
                 return Pattern.compile(String.valueOf(employeeId));
             case NAME_PATTERN:
