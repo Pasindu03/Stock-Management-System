@@ -7,9 +7,21 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
+import org.example.sms.bo.custom.ItemBO;
+import org.example.sms.bo.custom.SupplierBO;
+import org.example.sms.bo.custom.SupplierOrderBO;
+import org.example.sms.dto.DetailDTO;
+import org.example.sms.dto.InvoiceDTO;
+import org.example.sms.dto.ItemDTO;
+import org.example.sms.dto.SupplierOrderDTO;
+import org.example.sms.factory.BOFactory;
+import org.example.sms.tm.loadTM;
+import org.example.sms.types.BOTypes;
 
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Optional;
 
 public class AddNewItemLoadFormController {
 
@@ -33,9 +45,9 @@ public class AddNewItemLoadFormController {
     ItemDTO item;
     Optional<ItemDTO> items;
 
-    SupplierBO supplierBO = (SupplierBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.SUPPLIER);
-    ItemBO itemBO = (ItemBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.ITEM);
-    SupplierOrderBO supplierOrderBO = (SupplierOrderBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.SUPPLIER_ORDER);
+    SupplierBO supplierBO = (SupplierBO) BOFactory.getBoFactory().getBO(BOTypes.SUPPLIER);
+    ItemBO itemBO = (ItemBO) BOFactory.getBoFactory().getBO(BOTypes.ITEM);
+    SupplierOrderBO supplierOrderBO = (SupplierOrderBO) BOFactory.getBoFactory().getBO(BOTypes.SUPPLIER_ORDER);
 
     public void initialize() {
         loadSupplier();
