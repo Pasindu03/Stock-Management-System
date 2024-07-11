@@ -13,7 +13,7 @@ public class DbConnection {
 
         private DbConnection() throws SQLException {
             connection = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/Project-Ride",
+                    "jdbc:mysql://localhost:3306/managementsystem",
                     "root",
                     "Mixage03!"
             );
