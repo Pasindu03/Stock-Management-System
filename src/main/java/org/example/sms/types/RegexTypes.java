@@ -1,6 +1,6 @@
 package org.example.sms.types;
 
-public enum RegexPattern {
+public enum RegexTypes {
     CUSTOMER_ID_PATTERN, EMPLOYEE_ID_PATTERN, SUPPLIER_ID_PATTERN,
     ITEM_ID_PATTERN, NAME_PATTERN, CONTACT_PATTERN,
     SALARY_PATTERN, ADDRESS_PATTERN, DOUBLE_PATTERN,
