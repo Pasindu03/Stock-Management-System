@@ -26,7 +26,7 @@ public class DashboardPageFormController implements Initializable {
     private AnchorPane root;
 
     public void signBtnOnAtion(ActionEvent actionEvent) throws IOException {
-        AnchorPane anchorPane= FXMLLoader.load (getClass().getResource("/view/loginPageForm.fxml"));
+        AnchorPane anchorPane= FXMLLoader.load (getClass().getResource("/org/example/sms/view/loginPageForm.fxml"));
         Scene scene= new Scene(anchorPane);
         Stage stage= (Stage) root.getScene().getWindow();
         stage.setScene(scene);
@@ -35,19 +35,19 @@ public class DashboardPageFormController implements Initializable {
     }
 
     public void customerBtnOnAction(ActionEvent actionEvent) throws IOException {
-        AnchorPane anchorPane=FXMLLoader.load(getClass().getResource("/view/customerManageForm.fxml"));
+        AnchorPane anchorPane=FXMLLoader.load(getClass().getResource("/org/example/sms/view/customerManageForm.fxml"));
         root1.getChildren().clear();
         root1.getChildren().add(anchorPane);
     }
 
     public void dashboardBtnOnAction(ActionEvent actionEvent) throws IOException {
-        AnchorPane anchorPane=FXMLLoader.load(getClass().getResource("/view/dashboard_icon_view_form.fxml"));
+        AnchorPane anchorPane=FXMLLoader.load(getClass().getResource("/org/example/sms/view/dashboard_icon_view_form.fxml"));
         root1.getChildren().clear();
         root1.getChildren().add(anchorPane);
     }
 
     public void supplierBtnOnAction(ActionEvent actionEvent) throws IOException {
-        AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/view/supplierManageForm.fxml"));
+        AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/org/example/sms/view/supplierManageForm.fxml"));
         root1.getChildren().clear();
         root1.getChildren().add(anchorPane);
     }
@@ -63,26 +63,26 @@ public class DashboardPageFormController implements Initializable {
     }
 
     private void loadDashboard() throws IOException {
-        AnchorPane anchorPane=FXMLLoader.load(getClass().getResource("/view/dashboard_icon_view_form.fxml"));
+        AnchorPane anchorPane=FXMLLoader.load(getClass().getResource("/org/example/sms/view/dashboard_icon_view_form.fxml"));
         root1.getChildren().clear();
         root1.getChildren().add(anchorPane);
     }
 
     public void employeeBtnOnAction(ActionEvent actionEvent) throws IOException {
-        AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/view/employeeManageForm.fxml"));
+        AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/org/example/sms/view/employeeManageForm.fxml"));
         root1.getChildren().clear();
         root1.getChildren().add(anchorPane);
         employeeBtn.setStyle("-fx-background-color: #E11299");
     }
     public void itemBtnOnAction(ActionEvent actionEvent) throws IOException {
-        AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/view/itemManageForm.fxml"));
+        AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/org/example/sms/view/itemManageForm.fxml"));
         root1.getChildren().clear();
         root1.getChildren().add(anchorPane);
         employeeBtn.setStyle("");
     }
 
     public void orderBtnOnAction(ActionEvent actionEvent) throws IOException {
-        AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/view/orderManageForm.fxml"));
+        AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/org/example/sms/view/orderManageForm.fxml"));
         root1.getChildren().clear();
         root1.getChildren().add(anchorPane);
     }
