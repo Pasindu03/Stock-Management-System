@@ -140,7 +140,7 @@ public class DeliveryManageFormController implements Initializable {
 
     public void generateBillOnAction(ActionEvent actionEvent) throws SQLException, JRException {
         JasperDesign load = null;
-        load = JRXmlLoader.load(new File("E:\\Final_Project_65\\src\\main\\resources\\report\\OrderForm.jrxml"));
+        load = JRXmlLoader.load(new File("F:\\IJSE - Second Semester\\Architectural Design Patterns - I\\Stock-Management-System\\src\\main\\resources\\org\\example\\sms\\report\\OrderForm.jrxml"));
         JRDesignQuery newQuery = new JRDesignQuery();
         String sql = "select i.item_code as code, i.item_name as name , i.item_sell_price  as price ,oi.quantity as qty , i.item_sell_price*oi.quantity as subTotal " +
                 "from item i inner join order_details oi on i.item_code = oi.item_code where oi.order_id = '" + txtOrderId.getText() + "'";;
@@ -154,8 +154,6 @@ public class DeliveryManageFormController implements Initializable {
         JasperPrint jp = JasperFillManager.fillReport(js, hm, DbConnection.getInstance().getConnection());
         JasperViewer viewer = new JasperViewer(jp, false);
         viewer.show();
-
-
     }
 
     public void calculateTotal(ActionEvent actionEvent) {
