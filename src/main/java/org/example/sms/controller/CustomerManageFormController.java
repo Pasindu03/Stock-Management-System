@@ -197,7 +197,7 @@ public class CustomerManageFormController implements Initializable {
     }
 
     public void reportBtnOnAction(ActionEvent actionEvent) throws JRException, SQLException {
-        JasperDesign load = JRXmlLoader.load(new File("E:\\Final_Project_65\\src\\main\\resources\\report\\Customer1.jrxml"));
+        JasperDesign load = JRXmlLoader.load(new File("F:\\IJSE - Second Semester\\Architectural Design Patterns - I\\Stock-Management-System\\src\\main\\resources\\org\\example\\sms\\report\\Customer1.jrxml"));
         JRDesignQuery newQuery = new JRDesignQuery();
         String sql = "SELECT * FROM customer";
         newQuery.setText(sql);
