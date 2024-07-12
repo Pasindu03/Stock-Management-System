@@ -191,7 +191,11 @@ public class SupplierManageFormController implements Initializable {
     }
 
     public void reportBtnOnAction(ActionEvent actionEvent) throws JRException, SQLException {
+<<<<<<< HEAD
         JasperDesign load = JRXmlLoader.load(new File("F:\\IJSE - Second Semester\\Architectural Design Patterns - I\\Stock-Management-System\\src\\main\\resources\\org\\example\\sms\\report\\Supplier.jrxml"));
+=======
+        JasperDesign load = JRXmlLoader.load(new File("E:\\Final_Project_65\\src\\main\\resources\\report\\Supplier.jrxml"));
+>>>>>>> 76e59a66fbd2aad1e7a7519dda9613cda3650dfd
         JRDesignQuery newQuery = new JRDesignQuery();
         String sql = "SELECT * FROM supplier";
         newQuery.setText(sql);

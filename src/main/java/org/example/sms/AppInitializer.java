@@ -20,5 +20,8 @@ public class AppInitializer extends Application {
         stage.show();
     }
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 76e59a66fbd2aad1e7a7519dda9613cda3650dfd
