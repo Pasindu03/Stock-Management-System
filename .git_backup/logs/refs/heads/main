@@ -1,0 +1,74 @@
+0000000000000000000000000000000000000000 39773459e32c36d8446a84b17380268b67e53a61 Pasindu Yapa <lolmixage03@gmail.com> 1719976560 +0530	commit (initial): first commit
+39773459e32c36d8446a84b17380268b67e53a61 39773459e32c36d8446a84b17380268b67e53a61 Pasindu Yapa <lolmixage03@gmail.com> 1719976561 +0530	Branch: renamed refs/heads/master to refs/heads/main
+39773459e32c36d8446a84b17380268b67e53a61 1eac8995d95e861a23f11f618826db3f7d336def Pasindu Yapa <lolmixage03@gmail.com> 1719976798 +0530	commit: RegEx Changes
+1eac8995d95e861a23f11f618826db3f7d336def 0f01f8476ceae92c4cc6703d64b6dcec8df1a8fb Pasindu Yapa <lolmixage03@gmail.com> 1719989074 +0530	commit: CrudDao Class
+0f01f8476ceae92c4cc6703d64b6dcec8df1a8fb f8aee4072543bb068bf20165dd19af047991cf95 Pasindu Yapa <lolmixage03@gmail.com> 1719989088 +0530	commit: git toolbox
+f8aee4072543bb068bf20165dd19af047991cf95 587b619aa06cd1c996a715546c5818b1bc8dcb33 Pasindu Yapa <lolmixage03@gmail.com> 1719995000 +0530	commit: User Entity
+587b619aa06cd1c996a715546c5818b1bc8dcb33 b49af180ae787a03defdde09c10aa8c8c215e3cf Pasindu Yapa <lolmixage03@gmail.com> 1719995023 +0530	commit: UserDao Implementation
+b49af180ae787a03defdde09c10aa8c8c215e3cf fd51187c2bbe817862595b9465b5d23498aaa3b0 Pasindu Yapa <lolmixage03@gmail.com> 1719995061 +0530	commit: UserDao
+fd51187c2bbe817862595b9465b5d23498aaa3b0 283b9dbd43c73ce7d7ab861b624a5e3c625a4137 Pasindu Yapa <lolmixage03@gmail.com> 1719995071 +0530	commit: UserDto
+283b9dbd43c73ce7d7ab861b624a5e3c625a4137 fdcae223434d581c296f0712aa20d5d44cc58adb Pasindu Yapa <lolmixage03@gmail.com> 1719995086 +0530	commit: CustomerDao Implementation
+fdcae223434d581c296f0712aa20d5d44cc58adb e86c2fe7bd4811a5585db18c0d3dcecfb45db1e9 Pasindu Yapa <lolmixage03@gmail.com> 1719995096 +0530	commit: UserTm
+e86c2fe7bd4811a5585db18c0d3dcecfb45db1e9 b2989fd3998b64d16309eddceafb9c04efe8d71f Pasindu Yapa <lolmixage03@gmail.com> 1720690667 +0530	commit: Pom
+b2989fd3998b64d16309eddceafb9c04efe8d71f 3a8b0c37b1d6104f0a384ea9f9f8d3fab87a1084 Pasindu Yapa <lolmixage03@gmail.com> 1720692318 +0530	commit: Item Form - FXML
+3a8b0c37b1d6104f0a384ea9f9f8d3fab87a1084 55ed08943df12a5c4305eb594027274a5d06f62d Pasindu Yapa <lolmixage03@gmail.com> 1720692354 +0530	commit: Customer Form FXML & Jasper
+55ed08943df12a5c4305eb594027274a5d06f62d 8a7465f685301c3da0a12ff77149ce61dfe55408 Pasindu Yapa <lolmixage03@gmail.com> 1720692381 +0530	commit: Employee Form FXML & Jasper
+8a7465f685301c3da0a12ff77149ce61dfe55408 20f1a57f00e077033e06bf8712d494d62df7d054 Pasindu Yapa <lolmixage03@gmail.com> 1720692394 +0530	commit: Employee Form CSS
+20f1a57f00e077033e06bf8712d494d62df7d054 89e1baba6bb16df5b133044aef6c06bd6b6d1126 Pasindu Yapa <lolmixage03@gmail.com> 1720692413 +0530	commit: Dashboard Form CSS
+89e1baba6bb16df5b133044aef6c06bd6b6d1126 8a21bb201347dcb2d225f43d8656bfc259c0400a Pasindu Yapa <lolmixage03@gmail.com> 1720692431 +0530	commit: Order Form FXML & Jasper
+8a21bb201347dcb2d225f43d8656bfc259c0400a bbf1293d7d8382fc7b351de5092ce96757a5e695 Pasindu Yapa <lolmixage03@gmail.com> 1720692445 +0530	commit: Supplier Form FXML & Jasper
+bbf1293d7d8382fc7b351de5092ce96757a5e695 6816dd136035b8f53b233a084da3cdaa9224ffd6 Pasindu Yapa <lolmixage03@gmail.com> 1720692481 +0530	commit: Images
+6816dd136035b8f53b233a084da3cdaa9224ffd6 54843d1be01caf05ff585a30309ade958b62df9f Pasindu Yapa <lolmixage03@gmail.com> 1720692517 +0530	commit: Starting Page - FXML
+54843d1be01caf05ff585a30309ade958b62df9f b23cba2729a79b6d741e77c416496ae48fb5c753 Pasindu Yapa <lolmixage03@gmail.com> 1720692686 +0530	commit: Login Page - FXML
+b23cba2729a79b6d741e77c416496ae48fb5c753 e042598084b80bbc8f35a135e3c3861a093dcfce Pasindu Yapa <lolmixage03@gmail.com> 1720692699 +0530	commit: Item Page - FXML
+e042598084b80bbc8f35a135e3c3861a093dcfce 9038d9acb0565d7999731757d11590696fea1afe Pasindu Yapa <lolmixage03@gmail.com> 1720692714 +0530	commit: Delivery Page - FXML
+9038d9acb0565d7999731757d11590696fea1afe d478c32491d121843b8de87d58944ef23c6e6f24 Pasindu Yapa <lolmixage03@gmail.com> 1720692725 +0530	commit: Dashboard Page - FXML
+d478c32491d121843b8de87d58944ef23c6e6f24 c77d2aedc52abf058b967db0cf8f102f7d26b35e Pasindu Yapa <lolmixage03@gmail.com> 1720692738 +0530	commit: Icon Page - FXML
+c77d2aedc52abf058b967db0cf8f102f7d26b35e 4e9950ae555d4548646b26a3e67688a8b75330e8 Pasindu Yapa <lolmixage03@gmail.com> 1720692770 +0530	commit: Pom - Finished
+4e9950ae555d4548646b26a3e67688a8b75330e8 04c6fa2d5b80c11441d79154e2cca76b64bb9e68 Pasindu Yapa <lolmixage03@gmail.com> 1720692786 +0530	commit: Regex
+04c6fa2d5b80c11441d79154e2cca76b64bb9e68 9098b8122b0ec75a343386e2f60bd8d72ccf05ce Pasindu Yapa <lolmixage03@gmail.com> 1720692795 +0530	commit: Regex Pattern
+9098b8122b0ec75a343386e2f60bd8d72ccf05ce 78dcc72eb1411c56cc392e61322189e79f99c4c7 Pasindu Yapa <lolmixage03@gmail.com> 1720692856 +0530	commit: xml
+78dcc72eb1411c56cc392e61322189e79f99c4c7 24d0bc24122497f64e4aa25d574a227c9480ed9a Pasindu Yapa <lolmixage03@gmail.com> 1720692882 +0530	commit: Removed Files
+24d0bc24122497f64e4aa25d574a227c9480ed9a f5e7e1a91be5b579bd642d7505dff814b56294da Pasindu Yapa <lolmixage03@gmail.com> 1720692899 +0530	commit: App Initializer File Complete
+f5e7e1a91be5b579bd642d7505dff814b56294da 85027d0f8aac185b5a9b8012e2568e2ece8f2292 Pasindu Yapa <lolmixage03@gmail.com> 1720710142 +0530	commit: BO Types
+85027d0f8aac185b5a9b8012e2568e2ece8f2292 86f070467320b239cebfc70c029fcc6531cb8436 Pasindu Yapa <lolmixage03@gmail.com> 1720710156 +0530	commit: DAO Types
+86f070467320b239cebfc70c029fcc6531cb8436 2c37f0b4f22eac458d535e49ee163b7084c87494 Pasindu Yapa <lolmixage03@gmail.com> 1720710186 +0530	commit: Customer Manager Form
+2c37f0b4f22eac458d535e49ee163b7084c87494 37209490331f234ead0391e9fcba6470422c7af0 Pasindu Yapa <lolmixage03@gmail.com> 1720710250 +0530	commit: Dashboard Icon Manager Form
+37209490331f234ead0391e9fcba6470422c7af0 fcaa79468f27676cf45d7ab69ee3cb4e4d647814 Pasindu Yapa <lolmixage03@gmail.com> 1720710266 +0530	commit: Dashboard Manager Form
+fcaa79468f27676cf45d7ab69ee3cb4e4d647814 5b37ab2d6cc7eb151008c7208c541afd48d95434 Pasindu Yapa <lolmixage03@gmail.com> 1720710279 +0530	commit: Delivery Manager Form
+5b37ab2d6cc7eb151008c7208c541afd48d95434 53d28061812e2d54ff2146b023ff2deff9de927d Pasindu Yapa <lolmixage03@gmail.com> 1720710296 +0530	commit: Employee Manager Form
+53d28061812e2d54ff2146b023ff2deff9de927d d7bbbf4981f9dffe6265ead282fad53df8269627 Pasindu Yapa <lolmixage03@gmail.com> 1720710318 +0530	commit: Invoice Payment Manager Form
+d7bbbf4981f9dffe6265ead282fad53df8269627 c4b37d50e0d52989e8ef916685e6d23fdf56248f Pasindu Yapa <lolmixage03@gmail.com> 1720710352 +0530	commit: Invoice Entity
+c4b37d50e0d52989e8ef916685e6d23fdf56248f 21b6fa41e2175264fcfcf5c3972d9e6fd2b2e8b1 Pasindu Yapa <lolmixage03@gmail.com> 1720710364 +0530	commit: Invoice DTO
+21b6fa41e2175264fcfcf5c3972d9e6fd2b2e8b1 8ee6222c98cb54d3ede6dde699b445a4759318ba Pasindu Yapa <lolmixage03@gmail.com> 1720710389 +0530	commit: Item Manager Form
+8ee6222c98cb54d3ede6dde699b445a4759318ba ad566b63bdcefca9867d46fa3f24cf96d20a7b45 Pasindu Yapa <lolmixage03@gmail.com> 1720710404 +0530	commit: Login Form
+ad566b63bdcefca9867d46fa3f24cf96d20a7b45 1107cd6519838815cd6381d917e0b56e08c4c9f9 Pasindu Yapa <lolmixage03@gmail.com> 1720710421 +0530	commit: Order Manager Form
+1107cd6519838815cd6381d917e0b56e08c4c9f9 fb7bf388d2beca0861c2b9c67042e691a41db825 Pasindu Yapa <lolmixage03@gmail.com> 1720710446 +0530	commit: Starting Page
+fb7bf388d2beca0861c2b9c67042e691a41db825 1845d3c9e5caf31de2b222bb5d754872f85f3a1d Pasindu Yapa <lolmixage03@gmail.com> 1720710467 +0530	commit: Supplier Manager Form
+1845d3c9e5caf31de2b222bb5d754872f85f3a1d 1fe57178805ebfc5ce49ff990c0f50bc92e016d9 Pasindu Yapa <lolmixage03@gmail.com> 1720710506 +0530	commit: AppInitializer
+1fe57178805ebfc5ce49ff990c0f50bc92e016d9 50f9fac3d7d5c67b8132da7114080ead2184b443 Pasindu Yapa <lolmixage03@gmail.com> 1720710536 +0530	commit: AppInitializer Wrapper
+50f9fac3d7d5c67b8132da7114080ead2184b443 7b26b5806a154ba9808e63fa925d739c44613d67 Pasindu Yapa <lolmixage03@gmail.com> 1720710557 +0530	commit: BO Factory
+7b26b5806a154ba9808e63fa925d739c44613d67 c48aa3e5811beb63ef6fce50d0eb2294e0ebfc4f Pasindu Yapa <lolmixage03@gmail.com> 1720710578 +0530	commit: New Item Loader Form
+c48aa3e5811beb63ef6fce50d0eb2294e0ebfc4f 218d3c52b791f46086c7bd23b3d48a524cb92a68 Pasindu Yapa <lolmixage03@gmail.com> 1720710683 +0530	commit: Dao Factory
+218d3c52b791f46086c7bd23b3d48a524cb92a68 9579bc8296d6a5ade2742faf7a0e7cc49538595e Pasindu Yapa <lolmixage03@gmail.com> 1720710697 +0530	commit: DB Connection
+9579bc8296d6a5ade2742faf7a0e7cc49538595e bcc4d012506521f9cde217e6cf53988f25210384 Pasindu Yapa <lolmixage03@gmail.com> 1720710783 +0530	commit: Regex File
+bcc4d012506521f9cde217e6cf53988f25210384 bfdac4553f5b9a7ca70b46e2bcd1f675b92d8b12 Pasindu Yapa <lolmixage03@gmail.com> 1720710804 +0530	commit: Regex Types File
+bfdac4553f5b9a7ca70b46e2bcd1f675b92d8b12 df20514bde22b4be6625331a3befefd5af93f824 Pasindu Yapa <lolmixage03@gmail.com> 1720710832 +0530	commit: Removed File
+df20514bde22b4be6625331a3befefd5af93f824 cf4f63b142d72d5dfba3c2a33c2af72a166059d4 Pasindu Yapa <lolmixage03@gmail.com> 1720710883 +0530	commit: CrudDAO Finished
+cf4f63b142d72d5dfba3c2a33c2af72a166059d4 a0e48b24aaa57cde2bfc961e8b12c5b8931cbac0 Pasindu Yapa <lolmixage03@gmail.com> 1720710916 +0530	commit: CrudUtil Finished
+a0e48b24aaa57cde2bfc961e8b12c5b8931cbac0 47c6eee1d2aad5d1330aa980c0f53a358b5bffbc Pasindu Yapa <lolmixage03@gmail.com> 1720710939 +0530	commit: Cart DTO
+47c6eee1d2aad5d1330aa980c0f53a358b5bffbc e6940ffe5591f21acab190a016fdd6aa291e2125 Pasindu Yapa <lolmixage03@gmail.com> 1720710962 +0530	commit: Customer Entity
+e6940ffe5591f21acab190a016fdd6aa291e2125 c2821eea2813547021035fedbdb88bb50e9b8593 Pasindu Yapa <lolmixage03@gmail.com> 1720711318 +0530	commit: Customer BO
+c2821eea2813547021035fedbdb88bb50e9b8593 b2cfa52fb94471e3760288812ccc817590f276ac Pasindu Yapa <lolmixage03@gmail.com> 1720712112 +0530	commit: Super BO
+b2cfa52fb94471e3760288812ccc817590f276ac f9f1cdae11a0ec9d9f43722b8f1349233552be32 Pasindu Yapa <lolmixage03@gmail.com> 1720712126 +0530	commit: Super DAO
+f9f1cdae11a0ec9d9f43722b8f1349233552be32 5e89f42c1fa3bb0a1954d439571f46d5840c2592 Pasindu Yapa <lolmixage03@gmail.com> 1720758093 +0530	commit: Customer DAO
+5e89f42c1fa3bb0a1954d439571f46d5840c2592 71bab426bccdfc6d9793593e30c0ec5e979eaded Pasindu Yapa <lolmixage03@gmail.com> 1720758106 +0530	commit: Customer DTO
+71bab426bccdfc6d9793593e30c0ec5e979eaded 44e1326dd2097bfc881364fba8a925c2b7172b93 Pasindu Yapa <lolmixage03@gmail.com> 1720758126 +0530	commit: Customer Manager Form
+44e1326dd2097bfc881364fba8a925c2b7172b93 fc909c8709d039854e29e3306f45fba7e9c9731c Pasindu Yapa <lolmixage03@gmail.com> 1720758138 +0530	commit: Customer Model
+fc909c8709d039854e29e3306f45fba7e9c9731c c26520dbcc17d8fa3c4e31138495e81565cbd695 Pasindu Yapa <lolmixage03@gmail.com> 1720758147 +0530	commit: Customer TM
+c26520dbcc17d8fa3c4e31138495e81565cbd695 7bb902565868627c063a45ed4b9510c900d62a4e Pasindu Yapa <lolmixage03@gmail.com> 1720758162 +0530	commit: Dashboard FXML
+7bb902565868627c063a45ed4b9510c900d62a4e 13e206741917a91020f7646919c6557fea330557 Pasindu Yapa <lolmixage03@gmail.com> 1720758188 +0530	commit: Delivery Entity
+13e206741917a91020f7646919c6557fea330557 19cbd7a926ed7a4b4b777679f8e0ad910030667c Pasindu Yapa <lolmixage03@gmail.com> 1720758216 +0530	commit: Delivery BO
+19cbd7a926ed7a4b4b777679f8e0ad910030667c 675412e428264ed3aa6ca19e08f319491d6390c4 Pasindu Yapa <lolmixage03@gmail.com> 1720758240 +0530	commit: Delivery DAO
+675412e428264ed3aa6ca19e08f319491d6390c4 8435e5745f54a00eb337a654c22d48defc5a9c8e Pasindu Yapa <lolmixage03@gmail.com> 1720758264 +0530	commit: Delivery Form
+8435e5745f54a00eb337a654c22d48defc5a9c8e 76e59a66fbd2aad1e7a7519dda9613cda3650dfd Pasindu Yapa <lolmixage03@gmail.com> 1720758290 +0530	commit: Delivery Model
