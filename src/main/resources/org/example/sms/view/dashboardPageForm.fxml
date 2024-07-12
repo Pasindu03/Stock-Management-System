@@ -90,7 +90,7 @@
                <graphic>
                   <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="../image/icons8-sign-out-48 (1).png" />
+                        <Image url="@../image/icons8-sign-out-48 (1).png" />
                      </image>
                   </ImageView>
                </graphic>
