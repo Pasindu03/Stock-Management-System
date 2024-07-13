@@ -96,11 +96,7 @@ public class OrderManageFormController implements Initializable {
 
     @FXML
     public void newBtnOnAction(ActionEvent actionEvent) throws IOException {
-<<<<<<< HEAD
         AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/org/example/sms/view/customerManageForm.fxml"));
-=======
-        AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/view/customerManageForm.fxml"));
->>>>>>> 76e59a66fbd2aad1e7a7519dda9613cda3650dfd
         root1.getChildren().clear();
         root1.getChildren().add(anchorPane);
     }
@@ -140,11 +136,7 @@ public class OrderManageFormController implements Initializable {
         DeliveryManageFormController.Oid = lblOrderId.getText();
         DeliveryManageFormController.custId = lblCustomerId.getText();
 
-<<<<<<< HEAD
         Parent load = FXMLLoader.load(getClass().getResource("/org/example/sms/view/deliveryManageForm.fxml"));
-=======
-        Parent load = FXMLLoader.load(getClass().getResource("/view/deliveryManageForm.fxml"));
->>>>>>> 76e59a66fbd2aad1e7a7519dda9613cda3650dfd
         Scene scene = new Scene(load);
         Stage stage = new Stage();
         stage.setScene(scene);

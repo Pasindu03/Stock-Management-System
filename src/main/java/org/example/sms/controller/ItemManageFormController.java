@@ -218,11 +218,7 @@ public class ItemManageFormController implements Initializable {
     }
 
     public void newItemLoadBtnOnAction(ActionEvent actionEvent) throws IOException {
-<<<<<<< HEAD
         Parent load = FXMLLoader.load(getClass().getResource("/org/example/sms/view/addNewItemLoadForm.fxml"));
-=======
-        Parent load = FXMLLoader.load(getClass().getResource("/view/addNewItemLoadForm.fxml"));
->>>>>>> 76e59a66fbd2aad1e7a7519dda9613cda3650dfd
         Scene scene = new Scene(load);
         Stage stage = new Stage();
         stage.setScene(scene);

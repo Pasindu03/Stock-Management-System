@@ -25,7 +25,6 @@ public class LoginPageFormController implements Initializable {
     public JFXTextField txtUserName;
     @FXML
     public JFXPasswordField txtUserPassword;
-
     @FXML
     public ImageView icon1;
     @FXML
@@ -48,7 +47,6 @@ public class LoginPageFormController implements Initializable {
         try {
             boolean isvalid = UserModel.check(userName,userPassword,userPassword1);
             if (isvalid){
-
                 AnchorPane anchorPane = FXMLLoader.load(getClass().getResource("/org/example/sms/view/dashboardPageForm.fxml"));
                 Scene scene= new Scene(anchorPane);
                 Stage stage= (Stage) root.getScene().getWindow();
@@ -64,7 +62,6 @@ public class LoginPageFormController implements Initializable {
         }
         txtUserName.setText("");
         txtUserPassword.setText("");
-
     }
 
     public void eyeIconOnMouseClicked(MouseEvent mouseEvent) {

@@ -13,15 +13,10 @@ public class AppInitializer extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent load = FXMLLoader.load(getClass().getResource("/org/example/sms/view/startingPageForm.fxml"));
+        Parent load = FXMLLoader.load(getClass().getResource("/org/example/sms/view/dashboardPageForm.fxml"));
         stage.setScene(new Scene(load));
         stage.setTitle("Starting Page");
         stage.centerOnScreen();
         stage.show();
     }
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 76e59a66fbd2aad1e7a7519dda9613cda3650dfd
