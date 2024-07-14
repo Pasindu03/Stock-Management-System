@@ -143,8 +143,6 @@ public class OrderManageFormController implements Initializable {
         stage.setTitle("Delivery Manage Form");
         stage.centerOnScreen();
         stage.show();
-
-
     }
 
     @Override

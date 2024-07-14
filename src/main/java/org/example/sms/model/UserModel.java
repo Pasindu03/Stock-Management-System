@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class UserModel {
 
     public static boolean check(String userName, String userPassword,String userPassword1) throws SQLException {
-        String sql = "SELECT * FROM user WHERE user_email=?";
+        String sql = "SELECT * FROM user WHERE user_name=?";
 
         ResultSet resultSet = CrudUtil.execute(sql, userName);
 

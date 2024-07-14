@@ -29,6 +29,7 @@ import org.example.sms.types.BOTypes;
 import org.example.sms.types.RegexTypes;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.net.URL;
 import java.sql.SQLException;
 import java.util.HashMap;
@@ -215,18 +216,30 @@ public class EmployeeManageFormController implements Initializable {
         }
     }
 
-    public void reportBtnOnAction(ActionEvent actionEvent) throws JRException, SQLException {
-        JasperDesign load = JRXmlLoader.load(new File("F:\\IJSE - Second Semester\\Architectural Design Patterns - I\\Stock-Management-System\\src\\main\\resources\\org\\example\\sms\\report\\EmployeeManage.jrxml"));
-        JRDesignQuery newQuery = new JRDesignQuery();
-        String sql = "SELECT * FROM employee";
-        newQuery.setText(sql);
-        load.setQuery(newQuery);
-        JasperReport js = JasperCompileManager.compileReport(load);
-        HashMap<String, Object> hm = new HashMap<>();
-        JasperPrint jp = JasperFillManager.fillReport(js, hm, DbConnection.getInstance().getConnection());
-        JasperViewer viewer = new JasperViewer(jp, false);
-        viewer.show();
+    public void reportBtnOnAction(ActionEvent actionEvent) throws JRException, SQLException, FileNotFoundException {
+        try {
+            JasperDesign load = JRXmlLoader.load(new File("F:\\IJSE - Second Semester\\Architectural Design Patterns - I\\Stock-Management-System\\src\\main\\resources\\org\\example\\sms\\report\\EmployeeManage.jrxml"));
+            JRDesignQuery newQuery = new JRDesignQuery();
+            String sql = "SELECT * FROM employee";
+            newQuery.setText(sql);
+            load.setQuery(newQuery);
+
+            JasperReport js = JasperCompileManager.compileReport(load);
+            HashMap<String, Object> hm = new HashMap<>();
+
+            JasperPrint jp = JasperFillManager.fillReport(js, hm, DbConnection.getInstance().getConnection());
+            JasperViewer viewer = new JasperViewer(jp, false);
+            viewer.show();
+        } catch (JRException e) {
+            e.printStackTrace();
+            throw new JRException("Error creating report: " + e.getMessage(), e);
+        } catch (SQLException e) {
+            e.printStackTrace();
+            throw new SQLException("Database error: " + e.getMessage(), e);
+        }
     }
+
+
 
     public void employeeIdOnKeyReleased(KeyEvent keyEvent) {
         if (Regex.getInstance().getPattern(RegexTypes.EMPLOYEE_ID_PATTERN).matcher((txtID.getText())).matches()) {

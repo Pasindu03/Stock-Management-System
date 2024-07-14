@@ -17,8 +17,8 @@ public class EmployeeDAOImpl implements EmployeeDAO {
 
     @Override
     public boolean update(Employee entity) throws SQLException {
-        String sql = "UPDATE employee SET employee_name = ?, address = ?, contact_number = ?, job_roll = ?, salary = ? WHERE employee_id = ? ";
-        return CrudUtil.execute(sql,entity.getName(),entity.getAddress(),entity.getContact(),entity.getJobRoll(),entity.getSalary(),entity.getId());
+        String sql = "UPDATE employee SET employee_name = ?, address = ?,  job_roll = ?, contact_number = ?, salary = ? WHERE employee_id = ? ";
+        return CrudUtil.execute(sql,entity.getName(),entity.getAddress(),entity.getJobRoll(),entity.getContact(),entity.getSalary(),entity.getId());
     }
 
     @Override
