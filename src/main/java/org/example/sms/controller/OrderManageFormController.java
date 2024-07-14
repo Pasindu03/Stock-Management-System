@@ -19,10 +19,7 @@ import javafx.stage.Stage;
 import org.example.sms.bo.custom.CustomerBO;
 import org.example.sms.bo.custom.ItemBO;
 import org.example.sms.bo.custom.OrderBO;
-import org.example.sms.dto.CartDTO;
-import org.example.sms.dto.CustomerDTO;
-import org.example.sms.dto.ItemDTO;
-import org.example.sms.dto.OrderDetails;
+import org.example.sms.dto.*;
 import org.example.sms.tm.PlaceOrderTM;
 import org.example.sms.entity.Order;
 import org.example.sms.factory.BOFactory;
@@ -83,7 +80,7 @@ public class OrderManageFormController implements Initializable {
     public JFXTextField txtQty;
     private ObservableList<PlaceOrderTM> obList = FXCollections.observableArrayList();
     public String status = null;
-    public static Order order;
+    public static OrderDTO order;
     public static List<OrderDetails> orderDetailsList = new ArrayList<>();
 
 
@@ -117,7 +114,7 @@ public class OrderManageFormController implements Initializable {
         if (customer != null) {
             double net_total = Double.valueOf(lblTotal.getText());
             LocalDate date = LocalDate.parse(lblOrderDate.getText());
-            order = new Order(lblOrderId.getText(), date, LocalTime.now(), lblCustomerId.getText(), status);
+            order = new OrderDTO(lblOrderId.getText(), date, LocalTime.now(), lblCustomerId.getText(), status);
 
             List<CartDTO> cartDTOList = new ArrayList<>();
 

@@ -9,7 +9,7 @@ import java.time.LocalTime;
 
 public class OrderModel {
     public static String generateNextOrderId() throws SQLException {
-        String sql = "SELECT order_id FROM orders ORDER BY order_id DESC LIMIT 1";
+        String sql = "SELECT order_id FROM order ORDER BY order_id DESC LIMIT 1";
         ResultSet resultSet = CrudUtil.execute(sql);
         if (resultSet.next()){
             String id = resultSet.getString(1);

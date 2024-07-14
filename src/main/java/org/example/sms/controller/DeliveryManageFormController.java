@@ -52,7 +52,7 @@ public class DeliveryManageFormController implements Initializable {
 
     public static List<CartDTO> cartDTOList;
 
-    public static OrderDTO orders;
+    public static OrderDTO orders = new OrderDTO();
 
     private double new_total;
     private Object JRException;
@@ -95,7 +95,7 @@ public class DeliveryManageFormController implements Initializable {
         txtCustomerAddress.setText(customerDTO.getAddress());
         double calcnet = calcnet();
         txtNetTotal.setText(String.valueOf(calcnet));
-        if (orders.getStatus().equals("Yes")) {
+        if (OrderManageFormController.order.getStatus().equals("Yes")) {
             txtDistance.setEditable(true);
             txtDelivertTotal.setEditable(true);
         } else {

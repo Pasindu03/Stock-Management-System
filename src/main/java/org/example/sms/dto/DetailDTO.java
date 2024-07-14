@@ -12,5 +12,4 @@ public class DetailDTO {
     private String code;
     private double amount;
     private int qty;
-
 }
